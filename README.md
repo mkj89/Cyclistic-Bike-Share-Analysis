@@ -7,7 +7,8 @@ This project represents an in-depth analysis of Cyclistic, a thriving bike-shari
 - [Processing and Cleaning](#processing-and-cleaning)
 -  [Analysis and Visualization](#analysis-and-visualization)
 -   [Conclusion and Recommendations](#conclusion-and-recommendations)
-#introduction
+
+##introduction
 
 The Google Data Analytics Certification course has equipped me with a variety of skills, all culminating in this capstone project. As a Junior Data Analyst at Cyclistic, a major bike-sharing company, I was given the opportunity to dig deep into a comprehensive dataset and extract insightful knowledge.
 
