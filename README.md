@@ -1,14 +1,13 @@
 # Cyclistic-Bike-Share-Analysis
 This project represents an in-depth analysis of Cyclistic, a thriving bike-sharing company. As a data analyst for Cyclistic, my role was to leverage data in order to understand how customers interact with the bike-sharing service. The goal of the study was to find out how annual members and casual riders differ in their usage patterns.
 ## Table of Contents
-    Introduction
-    Business Task
-    Data
-    Processing and Cleaning
-    Analysis and Visualization
-    Conclusion and Recommendations
-
-##Introduction
+- [Introduction](#introduction)
+- [Business Task](#business-task)
+- [Data](#data)
+- [Processing and Cleaning](#processing-and-cleaning)
+-  [Analysis and Visualization](#analysis-and-visualization)
+-   [Conclusion and Recommendations](#conclusion-and-recommendations)
+#introduction
 
 The Google Data Analytics Certification course has equipped me with a variety of skills, all culminating in this capstone project. As a Junior Data Analyst at Cyclistic, a major bike-sharing company, I was given the opportunity to dig deep into a comprehensive dataset and extract insightful knowledge.
 
