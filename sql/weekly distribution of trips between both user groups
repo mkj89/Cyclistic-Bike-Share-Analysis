@@ -1,0 +1,14 @@
+SELECT 
+  user_type,
+  FORMAT_TIMESTAMP('%A', TIMESTAMP(started_at)) AS day_of_week,
+  EXTRACT(DAYOFWEEK FROM started_at) as weekday_number,
+  COUNT(*) AS trip_count
+FROM 
+  `credible-flag-393811.cyclistic_bike_share_analysis.bike_data_clean`
+GROUP BY 
+  user_type,
+  day_of_week,
+  weekday_number
+ORDER BY 
+  user_type,
+  weekday_number;
