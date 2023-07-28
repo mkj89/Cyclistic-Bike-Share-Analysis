@@ -29,12 +29,20 @@ The data used for this analysis comes from Cyclistic’s historical trip data, w
 
 ## Data Processing and Cleaning
 
-The data processing and cleaning phase involved importing the data into Google Cloud Storage (GCS) and then into BigQuery for analysis using SQL. During this process, the initial dataset of 5,779,444 entries was cleaned, leaving 4,409,269 records. This cleaning was done using this query to ensure that specific fields did not include null values and that the started_at timestamp was not later than the ended_at timestamp. The cleaned fields include ride_id, start_station_name, end_station_name, start_day, started_at, ended_at, and member_casual.
+The data processing and cleaning phase involved importing the data into Google Cloud Storage (GCS) and then into BigQuery for analysis using SQL. During this process, the initial dataset of 5,779,444 entries was cleaned, leaving 4,409,269 records. This cleaning was done using [this query[(sql/bike_daata_clean) to ensure that specific fields did not include null values and that the started_at timestamp was not later than the ended_at timestamp. The cleaned fields include ride_id, start_station_name, end_station_name, start_day, started_at, ended_at, and member_casual.
 
 After the cleaning and consolidation process, the dataset was ready for analysis.
 
 ## Analysis and Visualization
 
-In the analysis and visualization phase, I explored the cleaned dataset to observe differential trends between casual members and annual subscribers. The visualizations were developed in Looker (formerly known as Google Data Studio) to better comprehend and communicate these trends and patterns.
+In the analysis and visualization phase, I delved into the cleaned dataset to observe differential trends between casual members and annual subscribers. The visualizations were developed in Looker (formerly known as Google Data Studio) to better comprehend and communicate these trends and patterns.
+![Annual subscribers vs casual members](viz/Annual Subscribers vs Casual Users.png)
+
+The first graph I created shows the distribution of riders:
+
+    62% of total rides, equating to roughly 2.7 million rides, were taken by annual subscribers.
+    38% of total rides, or approximately 1.6 million rides, were taken by casual riders.
+
+Although casual riders make up a significant portion of the company's business, annual subscribers form the majority. Thus, strategies aimed at increasing annual subscriptions should be a focus in the long run.
 
 ## Conclusion and Recommendations
