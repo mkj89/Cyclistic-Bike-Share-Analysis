@@ -1,0 +1,12 @@
+SELECT
+  user_type,
+  rideable_type,
+  COUNT(*) AS trip_count
+FROM
+  `credible-flag-393811.cyclistic_bike_share_analysis.bike_data_clean`
+GROUP BY
+  user_type,
+  rideable_type
+ORDER BY
+  user_type,
+  trip_count DESC;
