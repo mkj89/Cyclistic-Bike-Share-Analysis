@@ -1,0 +1,7 @@
+SELECT 
+  user_type,
+  AVG(ST_DISTANCE(ST_GEOGPOINT(start_lng, start_lat), ST_GEOGPOINT(end_lng, end_lat))/1000) AS average_trip_length_km
+FROM 
+  `credible-flag-393811.cyclistic_bike_share_analysis.bike_data_clean`
+GROUP BY 
+  user_type;
