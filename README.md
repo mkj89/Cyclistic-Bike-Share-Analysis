@@ -112,4 +112,12 @@ Diving deeper into the usage habits of our riders, we'll now examine the choice 
 +Crucially, both user groups show a strong preference for classic and electric bikes. This trend suggests that maintaining an ample inventory of these two bike types could meet the demand of different user groups effectively.
 
 Understanding the bike preferences of different user groups is instrumental for bike inventory management. Moreover, this information can aid in designing more targeted marketing strategies. For example, emphasizing the benefits of classic and electric bikes, which are the preferred choices among casual riders, could encourage them to become annual subscribers.
+
+### Popular Stations Casual Users
+In the final leg of our analysis, we identified the top 5 popular starting points for casual riders. This information can help us pinpoint strategic locations for targeted marketing efforts:
+![Popular Stations](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Popular%20stations.png) 
++ Data suggests that there are certain locations that are favored as starting points by casual riders. These include the following: Streeter Dr & Grand Ave, Dusable Lake Shore Dr & Monroe St, Michigan Ave & Oak St, Millenium Park, and Dusable Lake Shore Dr & North Blvd.
+
+A high volume of casual rides originate from these popular spots. These locations present great opportunities for on-location engagement strategies like promotions, signage, or special events that could help convert casual riders into annual subscribers.
+
 ## Conclusion and Recommendations
