@@ -39,7 +39,7 @@ In the analysis and visualization phase, I delved into the cleaned dataset to ob
 
 #### Annual Subscribers vs Casual Users
 
-The first graph I created shows the distribution of riders.
+The first graph I createdshows the [distribution of riders](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/sql/Annual%20subscribers%20vs%20casual%20members.sql).
 
 ![viz/Annual Subscribers vs Casual Users.png](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Annual%20Subscribers%20vs%20Casual%20Users.png)
 
@@ -51,7 +51,7 @@ Thus, strategies aimed at increasing annual subscriptions should be a focus in t
 
 #### Weekly distribution of rides
 
-In reviewing the weekly distribution of rides, some fascinating patterns emerge.
+In reviewing the [weekly distribution of rides](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/8a6d3ed4dddd678c2ec346f32fb108d731c87e78/sql/weekly%20distribution%20of%20trips%20between%20both%20user%20groups), some fascinating patterns emerge.
 
 ![viz/Weekly distribution of rides.png](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Trips%20week.png)
 
@@ -64,9 +64,9 @@ In reviewing the weekly distribution of rides, some fascinating patterns emerge.
 These observations suggest that Cyclistic plays a pivotal role in both the daily commuting routines of subscribers and the recreational activities of casual riders. 
 Therefore, marketing strategies should emphasize both the practical commuting advantages for potential subscribers and the fun, leisure aspect of bike riding for converting casual riders into subscribers. 
 
-#### Weekly distribution of rides
+#### Weekly distribution of average ride duration
 
-The next aspect of the study concerns the average ride duration.
+The next aspect of the study concerns the [average ride duration](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/sql/weekly%20distribution%20of%20average%20ride%20duration).
 
 ![Trip duration during the week](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Trips%20days.png)
 
@@ -76,9 +76,9 @@ The next aspect of the study concerns the average ride duration.
 
 The insights gathered so far reveal that casual riders' usage tends to be more leisure-driven and less predictable, while annual subscribers exhibit more routine, consistent use of the service. These trends should be taken into account when devising strategies for converting casual riders into subscribers. For example, marketing efforts could highlight the benefits of a Cyclistic subscription for casual riders who want to increase their usage or use the service in a more routine manner.
 
-#### Weekly distribution of rides
+#### Ride duration vs Ride distance
 
-A deeper dive into the relationship between ride duration and ride distance further shows the differences between casual riders and annual subscribers.
+A deeper dive into the relationship between [ride duration](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/sql/ride%20duration) and [ride distance](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/sql/ride%20distance) further shows the differences between casual riders and annual subscribers.
 
 ![Trip duration](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Trips%20duration.png)
 ![Trip distance](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Trip%20distance.png)
@@ -90,7 +90,7 @@ The insights from this part of the analysis underscore the importance of underst
 
 #### Hourly distribution of rides
 
-As we delve further into the hourly distribution of rides, additional patterns emerge that highlight the different usage habits of casual riders and annual subscribers.
+As we delve further into the [hourly distribution of rides](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/sql/Hourly%20distribution%20of%20rides), additional patterns emerge that highlight the different usage habits of casual riders and annual subscribers.
 
 ![Popular times day](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Popular%20time.png)
 
@@ -103,7 +103,7 @@ These observations emphasize the different behaviors of casual riders and annual
 
 ### Seasonality
 
-Let's dive further into the monthly distribution of the number of rides to understand the seasonality of bike usage.
+Next we dive further into the [monthly distribution](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/sql/Months%20Trips%20Users%20%20Seasonality) of the number of rides to understand the seasonality of bike usage.
 
 ![Seasonality](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Popularity%20month.png)
 
@@ -117,19 +117,19 @@ These insights not only underscore the seasonal variations in bike usage but als
 
 ### Bike Type usage
 
-Diving deeper into the usage habits of our riders, we'll now examine the choice of bike types across both user groups.
+Diving deeper into the usage habits of our riders, we'll now examine the choice of [bike types](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/sql/Bike%20Type%20Usage) across both user groups.
 
 ![Bike Types](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Bike%20types%20users.png)
 
 + According to our data, annual subscribers primarily use classic bikes and electric bikes. Interestingly, docked bikes are not utilized by this group at all. This choice could be influenced by factors such as speed, convenience, and comfort, particularly as these attributes align with the commuting needs of our subscribers.
-+In contrast, casual riders exhibit a balanced usage of classic and electric bikes, while also occasionally opting for docked bikes. This pattern might indicate that casual riders are more open to experimenting with different bike types or that their use of bikes, which leans more towards leisure and exploratory rides, allows for a more diverse choice in bike types.
-+Crucially, both user groups show a strong preference for classic and electric bikes. This trend suggests that maintaining an ample inventory of these two bike types could meet the demand of different user groups effectively.
++ In contrast, casual riders exhibit a balanced usage of classic and electric bikes, while also occasionally opting for docked bikes. This pattern might indicate that casual riders are more open to experimenting with different bike types or that their use of bikes, which leans more towards leisure and exploratory rides, allows for a more diverse choice in bike types.
++ Crucially, both user groups show a strong preference for classic and electric bikes. This trend suggests that maintaining an ample inventory of these two bike types could meet the demand of different user groups effectively.
 
 Understanding the bike preferences of different user groups is instrumental for bike inventory management. Moreover, this information can aid in designing more targeted marketing strategies. For example, emphasizing the benefits of classic and electric bikes, which are the preferred choices among casual riders, could encourage them to become annual subscribers.
 
 ### Popular Stations Casual Users
 
-In the final leg of our analysis, we identified the top 5 popular starting points for casual riders. This information can help us pinpoint strategic locations for targeted marketing efforts.
+In the final leg of our analysis, we identified the [top 5 popular starting points](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/sql/Popular%20stations%20casual%20users) for casual riders. This information can help us pinpoint strategic locations for targeted marketing efforts.
 
 ![Popular Stations](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Popular%20stations.png) 
 + Data suggests that there are certain locations that are favored as starting points by casual riders. These include the following: Streeter Dr & Grand Ave, Dusable Lake Shore Dr & Monroe St, Michigan Ave & Oak St, Millenium Park, and Dusable Lake Shore Dr & North Blvd.
