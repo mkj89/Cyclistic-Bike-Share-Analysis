@@ -1,0 +1,10 @@
+SELECT 
+  user_type,
+  EXTRACT(HOUR FROM started_at) AS hour_of_day,
+  COUNT(ride_id) AS num_of_rides
+FROM 
+  `credible-flag-393811.cyclistic_bike_share_analysis.bike_data_clean`
+GROUP BY 
+  user_type, hour_of_day
+ORDER BY 
+  user_type, hour_of_day;
