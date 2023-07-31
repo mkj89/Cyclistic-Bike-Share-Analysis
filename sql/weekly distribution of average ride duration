@@ -1,0 +1,16 @@
+SELECT 
+  user_type,
+  FORMAT_TIMESTAMP('%A', TIMESTAMP(started_at)) AS day_of_week,
+  EXTRACT(DAYOFWEEK FROM started_at) as weekday_number,
+  ROUND(AVG(TIMESTAMP_DIFF(ended_at, started_at, SECOND)) / 60) AS average_trip_duration_minutes
+FROM 
+  `credible-flag-393811.cyclistic_bike_share_analysis.bike_data_clean`
+WHERE 
+  started_at IS NOT NULL
+GROUP BY 
+  user_type,
+  day_of_week,
+  weekday_number
+ORDER BY 
+  user_type,
+  weekday_number;
