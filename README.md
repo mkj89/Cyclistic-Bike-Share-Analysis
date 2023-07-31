@@ -4,7 +4,7 @@ This project represents an in-depth analysis of Cyclistic, a thriving bike-shari
 - [Introduction](#introduction)
 - [Business Task](#business-task)
 - [Data](#data)
-- [Processing and Cleaning](#processing-and-cleaning)
+- [Data Processing and Cleaning](#data-processing-and-cleaning)
 -  [Analysis and Visualization](#analysis-and-visualization)
 -   [Conclusion and Recommendations](#conclusion-and-recommendations)
 
@@ -36,26 +36,30 @@ After the cleaning and consolidation process, the dataset was ready for analysis
 ## Analysis and Visualization
 
 In the analysis and visualization phase, I delved into the cleaned dataset to observe differential trends between casual members and annual subscribers. The visualizations were developed in Looker (formerly known as Google Data Studio) to better comprehend and communicate these trends and patterns.
-![Annual subscribers vs casual members](viz/Annual Subscribers vs Casual Users.png)
+
+#### Annual Subscribers vs Casual Users
+
+![viz/Annual Subscribers vs Casual Users.png](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Annual%20Subscribers%20vs%20Casual%20Users.png)
 
 The first graph I created shows the distribution of riders:
 
-    62% of total rides, equating to roughly 2.7 million rides, were taken by annual subscribers.
-    38% of total rides, or approximately 1.6 million rides, were taken by casual riders.
++ 62% of total rides, equating to roughly 2.7 million rides, were taken by annual subscribers.
++ 38% of total rides, or approximately 1.6 million rides, were taken by casual riders.
 
-Although casual riders make up a significant portion of the company's business, annual subscribers form the majority. Thus, strategies aimed at increasing annual subscriptions should be a focus in the long run.
+Although casual riders make up a significant portion of the company's business, annual subscribers form the majority. 
+Thus, strategies aimed at increasing annual subscriptions should be a focus in the long run.
 
+#### Weekly distribution of rides
 In reviewing the weekly distribution of rides, some fascinating patterns emerge.
 
-    Casual riders use the service more frequently during the weekends, while the subscribers demonstrate a steady usage throughout the week with a slight decrease during the weekend.
+![viz/Weekly distribution of rides.png](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Weekly%20distribution%20trips.png)
++ Casual riders use the service more frequently during the weekends, while the subscribers demonstrate a steady usage throughout the week with a decrease during the weekend.
++ Despite the decline in subscriber rides during the weekend, they still match the number of rides taken by casual riders. 
++ However, considering that the dataset contains significantly more subscribers than casual riders, the same number of weekend rides means a larger percentage of total rides for casual riders compared to subscribers.
++ Casual riders, thus, tend to use the bike rentals more for leisure purposes, as evident from the higher number of trips over the weekend. 
++ In contrast, the subscribers' usage remains relatively consistent throughout the week, indicating their reliance on the service for regular commuting.
 
-    Despite the decline in subscriber rides during the weekend, they still match the number of rides taken by casual riders. 
-However, considering that the dataset contains significantly more subscribers than casual riders, the same number of weekend rides means a larger percentage 
-of total rides for casual riders compared to subscribers.
-
-    Casual riders, thus, tend to use the bike rentals more for leisure purposes, as evident from the higher number of trips over the weekend. 
-In contrast, the subscribers' usage remains relatively consistent throughout the week, indicating their reliance on the service for regular commuting.
-
-These observations suggest that Cyclistic plays a pivotal role in both the daily commuting routines of subscribers and the recreational activities of casual riders. Therefore, marketing strategies should emphasize both the practical commuting advantages for potential subscribers and the fun, leisure aspect of bike riding for converting casual riders into subscribers. 
+These observations suggest that Cyclistic plays a pivotal role in both the daily commuting routines of subscribers and the recreational activities of casual riders. 
+Therefore, marketing strategies should emphasize both the practical commuting advantages for potential subscribers and the fun, leisure aspect of bike riding for converting casual riders into subscribers. 
 
 ## Conclusion and Recommendations
