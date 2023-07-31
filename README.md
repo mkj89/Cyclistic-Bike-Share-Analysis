@@ -67,10 +67,49 @@ The next aspect of the study concerns the average ride duration.
 
 ![Trip duration during the week](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Trip%20duration%20week%20day.png)
 
-+ The analysis indicates that casual riders generally spend more time per ride than annual subscribers. Specifically, casual riders take about double the time, [averaging 22 minutes per ride, compared to the 11-minute average for annual subscribers.](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Trip%20duration.png)
++ The analysis indicates that casual riders generally spend more time per ride than annual subscribers. Specifically, casual riders take about double the time, averaging 22 minutes per ride, compared to the 11-minute average for annual subscribers.
 + Furthermore, the average ride duration for casual riders is higher during the weekend and lowest on Wednesdays. This could be attributed to leisurely, non-time-bound trips undertaken over the weekend, whereas shorter, time-efficient trips could be a priority during the weekdays.
 + Interestingly, annual subscribers' average ride duration is mostly steady throughout the week, with only a slight increase on Saturdays. This consistent ride duration suggests that subscribers use the service in a routine, predictable manner, possibly as part of their daily commute or regular activities.
 
 The insights gathered so far reveal that casual riders' usage tends to be more leisure-driven and less predictable, while annual subscribers exhibit more routine, consistent use of the service. These trends should be taken into account when devising strategies for converting casual riders into subscribers. For example, marketing efforts could highlight the benefits of a Cyclistic subscription for casual riders who want to increase their usage or use the service in a more routine manner.
 
+#### Weekly distribution of rides
+A deeper dive into the relationship between ride duration and ride distance further shows the differences between casual riders and annual subscribers.
+
+![Trip duration](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Trip%20duration.png)
+![Trip distance](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Screenshot%202023-07-31%20at%2011-45-51%20Annual%20Subscribers%20vs%20Casual%20Users.png)
++ Despite casual riders spending about twice as long on their rides compared to annual subscribers (22 minutes versus 11 minutes), both groups tend to cover similar average distances.
++ This divergence between ride duration and distance could imply that casual riders tend to take a more leisurely pace or possibly engage in more stop-and-go activities, whereas annual subscribers might be using the service more for point-to-point transportation or efficient commuting.
+
+The insights from this part of the analysis underscore the importance of understanding user behavior in depth when trying to convert casual riders into subscribers. The marketing strategy could benefit from emphasizing the efficiency of the service for point-to-point transportation to casual riders who might be contemplating a subscription.
+
+#### Hourly distribution of rides
+As we delve further into the hourly distribution of rides, additional patterns emerge that highlight the different usage habits of casual riders and annual subscribers.
+![Popular times day](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Popular%20time.png)
++ The most pronounced peak occurs around 5 pm, indicating a significant proportion of bike usage during the typical end of the workday. This finding aligns with the idea that many subscribers use the bike service for commuting.
++ Another smaller but noticeable surge in usage happens around 8 am, presumably reflecting the start of a typical workday. Despite this morning peak being only half as significant as the evening peak, it still highlights an essential commuting trend among subscribers.
++ Between the late-night hours and early morning (roughly from 2 am to 5 am), bike usage hits its lowest. This quiet period precedes a gradual increase in usage that begins around 5 am, likely marking the start of users' daily activities.
++Interestingly, there's a slight dip in usage between 9 and 10 am. Following this dip, usage begins to rise again and continues to grow until it reaches the high point in the evening.
+
+These observations emphasize the different behaviors of casual riders and annual subscribers. While casual riders seem to use the service for leisure and spontaneous activities, subscribers lean more towards using it for their daily commute. This understanding can inform targeted marketing strategies that cater to the unique needs and usage patterns of each user group.
+
+### Seasonality
+Let's dive further into the monthly distribution of the number of rides to understand the seasonality of bike usage.
+![Seasonality](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Popularity%20month.png)
++ The dataset reveals a marked seasonality in bike usage among both user types. Ride numbers inflate during warmer months and deflate in the winter. However, this seasonal effect is more pronounced among casual riders.
++ For casual riders, the proportion of rides drops significantly during the winter months. This pattern suggests that adverse weather conditions strongly sway the riding habits of casual members, who likely resort to other modes of transportation when the weather turns unfavorable.
++ As temperatures climb from spring and peak in July, we observe a consistent upswing in the proportion of rides by casual members. This trend indicates that casual riders primarily use the bike-sharing service during warmer months, possibly for recreational rides or to indulge in outdoor activities.
++ While the proportion of rides by annual subscribers also dips in the winter, the decrease is less severe than that of casual riders. This trend shows that subscribers have a more resilient commitment to bike usage throughout the year, likely using the service for regular commuting, regardless of weather conditions.
++ Interestingly, the overall highest usage of the bike-sharing service and the peak for casual rides align in July. This period presents a prime opportunity to coax casual riders into becoming annual subscribers.
+
+These insights not only underscore the seasonal variations in bike usage but also pinpoint the distinct riding habits between casual riders and annual subscribers. Understanding these trends is a key component in crafting targeted marketing strategies that nudge casual riders to transition into subscribers, particularly by capitalizing on the high usage during the summer months.
+
+### Bike Type usage
+Diving deeper into the usage habits of our riders, we'll now examine the choice of bike types across both user groups:
+![Bike Types](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Bike%20types%20users.png)
++ According to our data, annual subscribers primarily use classic bikes and electric bikes. Interestingly, docked bikes are not utilized by this group at all. This choice could be influenced by factors such as speed, convenience, and comfort, particularly as these attributes align with the commuting needs of our subscribers.
++In contrast, casual riders exhibit a balanced usage of classic and electric bikes, while also occasionally opting for docked bikes. This pattern might indicate that casual riders are more open to experimenting with different bike types or that their use of bikes, which leans more towards leisure and exploratory rides, allows for a more diverse choice in bike types.
++Crucially, both user groups show a strong preference for classic and electric bikes. This trend suggests that maintaining an ample inventory of these two bike types could meet the demand of different user groups effectively.
+
+Understanding the bike preferences of different user groups is instrumental for bike inventory management. Moreover, this information can aid in designing more targeted marketing strategies. For example, emphasizing the benefits of classic and electric bikes, which are the preferred choices among casual riders, could encourage them to become annual subscribers.
 ## Conclusion and Recommendations
