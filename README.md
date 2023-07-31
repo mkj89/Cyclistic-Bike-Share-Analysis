@@ -19,10 +19,9 @@ Business Task.
 
 ## Business Task
 In this role, my task is to explore and understand the differences in how annual subscribers and casual members use Cyclistic bikes. The exploration is guided by the following three questions, which aim to inform future marketing strategies:
-
-    How do annual subscribers and casual members use Cyclistic bikes differently?
-    Why would casual members buy Cyclistic annual memberships?
-    How can Cyclistic use digital media to influence casual members to become subscribers?
++ How do annual subscribers and casual members use Cyclistic bikes differently?
++ Why would casual members buy Cyclistic annual memberships?
++ How can Cyclistic use digital media to influence casual members to become subscribers?
 
 ## Data
 The data used for this analysis comes from Cyclistic’s historical trip data, which are public data provided by Motivate International Inc., the Divvy Bicycle Sharing Service from Chicago, under this [license](https://www.divvybikes.com/data-license-agreement). The dataset, available in .csv format, comprises individual ride records. This dataset includes information such as ride start-end date & time, station information, bike type, and user type (casual member/subscriber). My analysis focuses on data from July 2022 to June 2023.
@@ -61,5 +60,17 @@ In reviewing the weekly distribution of rides, some fascinating patterns emerge.
 
 These observations suggest that Cyclistic plays a pivotal role in both the daily commuting routines of subscribers and the recreational activities of casual riders. 
 Therefore, marketing strategies should emphasize both the practical commuting advantages for potential subscribers and the fun, leisure aspect of bike riding for converting casual riders into subscribers. 
+
+#### Weekly distribution of rides
+
+The next aspect of the study concerns the average ride duration.
+
+![Trip duration during the week](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Trip%20duration%20week%20day.png)
+
++ The analysis indicates that casual riders generally spend more time per ride than annual subscribers. Specifically, casual riders take about double the time, [averaging 22 minutes per ride, compared to the 11-minute average for annual subscribers.](https://github.com/mkj89/Cyclistic-Bike-Share-Analysis/blob/main/viz/Trip%20duration.png)
++ Furthermore, the average ride duration for casual riders is higher during the weekend and lowest on Wednesdays. This could be attributed to leisurely, non-time-bound trips undertaken over the weekend, whereas shorter, time-efficient trips could be a priority during the weekdays.
++ Interestingly, annual subscribers' average ride duration is mostly steady throughout the week, with only a slight increase on Saturdays. This consistent ride duration suggests that subscribers use the service in a routine, predictable manner, possibly as part of their daily commute or regular activities.
+
+The insights gathered so far reveal that casual riders' usage tends to be more leisure-driven and less predictable, while annual subscribers exhibit more routine, consistent use of the service. These trends should be taken into account when devising strategies for converting casual riders into subscribers. For example, marketing efforts could highlight the benefits of a Cyclistic subscription for casual riders who want to increase their usage or use the service in a more routine manner.
 
 ## Conclusion and Recommendations
