@@ -1,0 +1,21 @@
+WITH station_rankings AS (
+  SELECT 
+    start_station_name,
+    COUNT(ride_id) AS num_of_rides,
+    ROW_NUMBER() OVER (
+      ORDER BY 
+        COUNT(ride_id) DESC
+    ) AS rank
+  FROM 
+    `credible-flag-393811.cyclistic_bike_share_analysis.bike_data_clean`
+  WHERE user_type = 'Casual Users'
+  GROUP BY 
+    start_station_name
+)
+SELECT 
+  start_station_name,
+  num_of_rides
+FROM 
+  station_rankings
+WHERE 
+  rank <= 5;
