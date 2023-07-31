@@ -1,0 +1,10 @@
+SELECT 
+  user_type,
+  EXTRACT(MONTH FROM started_at) AS month,
+  COUNT(ride_id) AS number_of_trips
+FROM 
+  `credible-flag-393811.cyclistic_bike_share_analysis.bike_data_clean`
+GROUP BY 
+  user_type, month
+ORDER BY 
+  user_type, month;
